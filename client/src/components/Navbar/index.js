@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className='absolute z-50 w-full left-0 top-0 right-0'>
             {/* Container */}
             <div className='flex flex-row w-full bg-black justify-between items-center py-4 px-2 text-white font-oxygen'>
                 {/* Col 1 */}
@@ -18,10 +18,10 @@ const Navbar = () => {
                     </li>
                 </ul>
                 {/* Col 2 */}
-                <div className=''>
+                {/* <div className=''>
                     <a href="/register" className="pr-3 hover:text-alloy-orange">REGISTER</a>
                     <a href="/login" className="border border-alloy-orange rounded-2xl px-4 py-2 hover:text-alloy-orange">LOGIN</a>
-                </div>
+                </div> */}
             </div>
             
         </nav>

@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'space-cadet': '#262A56',
-        'alloy-orange': '#B8621B',
+        'alloy-orange': '#fca311',
         'dun': '#E3CCAE'
       },
       fontFamily: {
