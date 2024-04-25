@@ -19,7 +19,7 @@ const Home = () => {
                     
                 </div>
                 {/* Row 2 */}
-                <div className='flex md:flex-row flex-col md:gap-32 gap-20 text-center px-10'>
+                <div className='flex md:flex-row flex-col md:gap-32 sm:gap-20 gap-10 text-center px-10'>
                     <div className="flex flex-col items-center">
                         <i class="fa-regular fa-circle-check fa-4x text-white"></i>
                         <div className='text-xl'>Keep <span className='text-alloy-orange font-bold'>track</span> of your personal bests</div>

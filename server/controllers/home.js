@@ -1,6 +1,12 @@
+// module.exports = {
+//     getIndex: (req, res) => {
+//         res.send("/");
+//     },
+// };
+
 module.exports = {
-    getIndex: (req, res) => {
-        res.send("this is the index");
+    getAbout: (req, res) => {
+        res.send("/about");
     },
 };
 
