@@ -12,11 +12,10 @@ const Home = () => {
                 <div className='flex flex-col items-center gap-4'>
                     <div className='lg:text-5xl text-4xl font-semibold text-center'>Simplify your fitness goals</div>
                     <div className=''>
-                        <a href="/register" className="pr-3 hover:text-alloy-orange">REGISTER</a>
+                        <a href="/signup" className="pr-3 hover:text-alloy-orange">REGISTER</a>
                         <a href="/login" className="border border-alloy-orange rounded-2xl px-4 py-2 hover:text-alloy-orange">LOGIN</a>
                     </div>
                     {/* <a href='/about' className='uppercase border border-alloy-orange rounded-2xl px-4 py-2 hover:text-alloy-orange'>Learn More</a> */}
-                    
                 </div>
                 {/* Row 2 */}
                 <div className='flex md:flex-row flex-col md:gap-32 sm:gap-20 gap-10 text-center px-10'>

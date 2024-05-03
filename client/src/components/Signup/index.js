@@ -69,31 +69,31 @@ const Signup = () => {
     }
 
     return (
-        <main className="container">
-            <div className="row justify-content-center">
-                <section className="col-6 mt-5">
+        <main className="h-full w-full md:m-auto text-white flex justify-center">
+            <div className="h-full w-full flex justify-center items-center">
+                <section className="mt-5 md:w-[600px] w-full px-2 md:px-0">
                     {errors.map((err,i) => {
                         return <span key="{i}" className="alert alert-danger">{err}</span>
                     })}
                     <form className="mt-4">
-                        <div className="mb-3">
+                        <div className="mb-3 flex flex-col">
                             <label htmlFor="userName" className="form-label">User Name</label>
-                            <input onChange={handleUserName} type="text" className="form-control" id="userName" name="userName"></input>
+                            <input onChange={handleUserName} type="text" className="form-control rounded p-1" id="userName" name="userName"></input>
                         </div>
-                        <div className="mb-3">
-                            <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
-                            <input onChange={handleEmail} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email"></input>
+                        <div className="mb-3 flex flex-col">
+                            <label htmlFor="exampleInputEmail1" className="form-label">Email Address</label>
+                            <input onChange={handleEmail} type="email" className="form-control rounded p-1" id="exampleInputEmail1" aria-describedby="emailHelp" name="email"></input>
                             <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                         </div>
-                        <div className="mb-3">
+                        <div className="mb-3 flex flex-col">
                             <label htmlFor="password" className="form-label">Password</label>
-                            <input onChange={handlePassword} type="password" className="form-control" id="password" name="password"></input>
+                            <input onChange={handlePassword} type="password" className="form-control rounded p-1" id="password" name="password"></input>
                         </div>
-                        <div className="mb-3">
+                        <div className="mb-3 flex flex-col">
                             <label htmlFor="confirmPassword" className="form-label">Confirm Password</label>
-                            <input type="password" className="form-control" onChange={handleConfirm} id="confirmPassword" name="confirmPassword"></input>
+                            <input type="password" className="form-control rounded p-1" onChange={handleConfirm} id="confirmPassword" name="confirmPassword"></input>
                         </div>
-                        <button type="submit" className="btn btn-primary" onClick={handleSubmit}>Submit</button>
+                        <button type="submit" className="p-2 bg-white text-black hover:text-white hover:bg-gray-700 rounded-lg" onClick={handleSubmit}>Submit</button>
                     </form>
                     
                 </section>
